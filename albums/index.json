@@ -1,6 +1,12 @@
 {
   "albums": [
     {
+      "slug": "cat-galaxy",
+      "title": "Cat Galaxy",
+      "cover": "./albums/cat-galaxy/cover.jpg",
+      "description": "貓咪銀河系"
+    },
+    {
       "slug": "demo-album",
       "title": "Demo Album",
       "cover": "./albums/demo-album/cover.jpg",

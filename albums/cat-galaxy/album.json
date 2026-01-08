@@ -1,0 +1,10 @@
+{
+  "title": "Cat Galaxy",
+  "photos": [
+    {
+      "id": "001",
+      "src": "photo1.jpg",
+      "caption": "一大群貓咪在銀河系中漂浮、旋轉，很悠哉。"
+    }
+  ]
+}
