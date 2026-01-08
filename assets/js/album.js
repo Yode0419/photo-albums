@@ -74,12 +74,17 @@ function renderMainPhotos() {
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
 
+    // Create zoom container for pinch-to-zoom support
+    const zoomContainer = document.createElement("div");
+    zoomContainer.className = "swiper-zoom-container";
+
     const img = document.createElement("img");
     img.src = photo.src;
     img.alt = photo.caption || "Photo";
     img.loading = "lazy";
 
-    slide.appendChild(img);
+    zoomContainer.appendChild(img);
+    slide.appendChild(zoomContainer);
     wrapper.appendChild(slide);
   });
 }
@@ -138,6 +143,11 @@ function initSwipers() {
     },
     keyboard: { enabled: true, onlyInViewport: true },
     thumbs: { swiper: thumbSwiper },
+    zoom: {
+      maxRatio: 3,
+      minRatio: 1,
+      toggle: true,
+    },
 
     on: {
       init(sw) {
