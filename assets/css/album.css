@@ -103,6 +103,13 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: var(--spacing-sm) 0;
   overflow: hidden;
+  min-height: 84px; /* Fixed height: 60px (thumbnail) + 12px (padding top/bottom) + 12px (spacing) */
+}
+
+.thumb-swiper[style*="display: none"] {
+  /* Keep the space even when hidden */
+  visibility: hidden;
+  border-top: none;
 }
 
 .thumb-swiper .swiper-wrapper {
@@ -166,6 +173,10 @@
     font-size: 14px;
   }
 
+  .thumb-swiper {
+    min-height: 69px; /* Fixed height for mobile: 53px (thumbnail) + 8px (padding) + 8px (spacing) */
+  }
+
   .thumb-swiper .swiper-slide {
     width: 80px !important;
     height: 53px;
@@ -174,6 +185,10 @@
 
 /* Tablet */
 @media (min-width: 641px) and (max-width: 1024px) {
+  .thumb-swiper {
+    min-height: 77px; /* Fixed height for tablet: 57px (thumbnail) + 10px (padding) + 10px (spacing) */
+  }
+
   .thumb-swiper .swiper-slide {
     width: 85px !important;
     height: 57px;

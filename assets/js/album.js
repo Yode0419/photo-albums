@@ -113,8 +113,10 @@ function initSwipers() {
   const isSinglePhoto = photos.length === 1;
 
   if (isSinglePhoto) {
-    // Hide thumbnail container for single photo
-    document.getElementById("thumbnail-container").style.display = "none";
+    // Hide thumbnail container for single photo (keep space for consistent caption position)
+    const thumbContainer = document.getElementById("thumbnail-container");
+    thumbContainer.style.visibility = "hidden";
+    thumbContainer.style.borderTop = "none";
   }
 
   // Initialize thumbnail swiper first
