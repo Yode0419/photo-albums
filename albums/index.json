@@ -1,0 +1,10 @@
+{
+  "albums": [
+    {
+      "slug": "demo-album",
+      "title": "Demo Album",
+      "cover": "./albums/demo-album/cover.jpg",
+      "description": "本地照片示範相簿，展示如何使用自己的照片。"
+    }
+  ]
+}

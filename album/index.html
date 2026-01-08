@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="description" content="Photo album slideshow">
+  <title>Album - Photo Albums</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/album.css">
+</head>
+<body>
+  <div class="slideshow-container">
+    <!-- Header with album title -->
+    <header class="slideshow-header">
+      <h1 id="album-title" class="album-title">Loading...</h1>
+    </header>
+
+    <!-- Main photo swiper -->
+    <div class="swiper main-swiper">
+      <div class="swiper-wrapper" id="main-swiper-wrapper">
+        <!-- Main photos will be dynamically inserted here -->
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Caption area -->
+    <div class="caption-area">
+      <p id="caption" class="caption"></p>
+    </div>
+
+    <!-- Thumbnail swiper -->
+    <div class="swiper thumb-swiper" id="thumbnail-container">
+      <div class="swiper-wrapper" id="thumb-swiper-wrapper">
+        <!-- Thumbnails will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="../assets/js/utils.js"></script>
+  <script src="../assets/js/album.js"></script>
+</body>
+</html>

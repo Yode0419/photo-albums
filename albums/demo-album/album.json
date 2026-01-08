@@ -1,0 +1,30 @@
+{
+  "title": "Demo Album",
+  "photos": [
+    {
+      "id": "001",
+      "src": "photo1.jpg",
+      "caption": "第一張照片的說明文字。"
+    },
+    {
+      "id": "002",
+      "src": "photo2.png",
+      "caption": "第二張照片的說明文字。"
+    },
+    {
+      "id": "003",
+      "src": "photo3.png",
+      "caption": "第三張照片的說明文字。"
+    },
+    {
+      "id": "004",
+      "src": "photo3.png",
+      "caption": "第四張照片的說明文字。"
+    },
+    {
+      "id": "005",
+      "src": "photo3.png",
+      "caption": "第五張照片的說明文字。"
+    }
+  ]
+}
