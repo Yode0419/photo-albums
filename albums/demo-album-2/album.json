@@ -1,0 +1,10 @@
+{
+  "title": "Demo Album GGG",
+  "photos": [
+    {
+      "id": "001",
+      "src": "photo1.png",
+      "caption": "第一張照片的說明文字。"
+    }
+  ]
+}

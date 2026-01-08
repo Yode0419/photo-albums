@@ -110,8 +110,8 @@
 }
 
 .thumb-swiper .swiper-slide {
-  width: 120px !important;
-  height: 80px;
+  width: 90px !important;
+  height: 60px;
   border-radius: var(--radius-sm);
   overflow: hidden;
   cursor: pointer;
@@ -167,15 +167,15 @@
   }
 
   .thumb-swiper .swiper-slide {
-    width: 100px !important;
-    height: 67px;
+    width: 80px !important;
+    height: 53px;
   }
 }
 
 /* Tablet */
 @media (min-width: 641px) and (max-width: 1024px) {
   .thumb-swiper .swiper-slide {
-    width: 110px !important;
-    height: 73px;
+    width: 85px !important;
+    height: 57px;
   }
 }

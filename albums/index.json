@@ -5,6 +5,12 @@
       "title": "Demo Album",
       "cover": "./albums/demo-album/cover.jpg",
       "description": "本地照片示範相簿，展示如何使用自己的照片。"
+    },
+    {
+      "slug": "demo-album-2",
+      "title": "Demo Album GGG",
+      "cover": "./albums/demo-album-2/cover.png",
+      "description": "GGGGG。"
     }
   ]
 }
