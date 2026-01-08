@@ -191,6 +191,7 @@
 
   .thumb-swiper {
     min-height: 69px; /* Fixed height for mobile: 53px (thumbnail) + 8px (padding) + 8px (spacing) */
+    padding-bottom: 64px; /* Extra padding for mobile to avoid bottom cut-off */
   }
 
   .thumb-swiper .swiper-slide {
