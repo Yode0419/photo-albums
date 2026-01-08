@@ -3,20 +3,14 @@
     {
       "slug": "cat-galaxy",
       "title": "Cat Galaxy",
-      "cover": "./albums/cat-galaxy/cover.jpg",
+      "cover": "./albums/cat-galaxy/cat-galaxy.jpg",
       "description": "貓咪銀河系"
     },
     {
-      "slug": "demo-album",
-      "title": "Demo Album",
-      "cover": "./albums/demo-album/cover.jpg",
-      "description": "本地照片示範相簿，展示如何使用自己的照片。"
-    },
-    {
-      "slug": "demo-album-2",
-      "title": "Demo Album GGG",
-      "cover": "./albums/demo-album-2/cover.png",
-      "description": "GGGGG。"
+      "slug": "blender-practice",
+      "title": "Blender Practice",
+      "cover": "./albums/blender-practice/blender_yo.jpg",
+      "description": "Blender 練習"
     }
   ]
 }
